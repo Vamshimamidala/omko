@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background: var(--Text-800, #454545);
+  height: 65px;
+  padding: 0 42px 0 21px;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 17.172px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item a {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 18px;
+  color: var(--Text-00, #FFF);
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.copy p{
+  color: var(--Text-00, #FFF);
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* .copy .footer-text img {
+  margin-right: 8px;  
+  width: 30px;  
+  height: 30px;  
+} */

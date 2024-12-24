@@ -1,0 +1,321 @@
+.webbg{
+  max-width: 1446px; /* Prevent width overflow */
+ height: 495px; /* Fixed height for consistency */
+  background: url('./Pngimages/image\ \(2\).svg') center / cover no-repeat;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensure no background overflows */
+  padding: 37px 57px 32px 75px ;
+}
+.covered {
+    text-align: center;
+}
+
+.web {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center child elements horizontally */
+    justify-content: center; /* Center child elements vertically (if height is specified) */
+    gap: 20px; /* Add spacing between elements */
+}
+
+.web h2 {
+    width: 1155px;
+    color: var(--Text-950, #252525);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 25.2px */
+}
+
+.web h4 {
+    width: 968px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 28.8px */
+}
+
+.connect-button {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: var(--Prim-800, #373C8C);
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect-button:hover {
+    color: white;
+}
+
+.connect-button:after {
+    content: "";
+    background: #4B5CC5 ;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+.connect-button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    transition: all 0.5s;
+}
+ .phoone{
+    text-align: center;
+ }
+.phonee img{
+width: 100%;
+height: 620px;
+flex-shrink: 0;
+}
+.phonee h4{
+    align-self: stretch;
+    color: var(--Text-950, #252525);
+text-align: center;
+
+/* Semi/21 */
+font-family: Poppins;
+font-size: 21px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 25.2px */
+}
+.goals .row {
+    display: flex;
+    justify-content: center; /* Center the content in the row */
+    align-items: center; /* Vertically center the content */
+    
+    padding: 0px 280px;
+}
+
+.goals .col-md-3 {
+    display: flex;
+    align-items: center; /* Center both the image and text vertically */
+    justify-content: center; /* Center both the image and text horizontally */
+}
+
+.goals img {
+    width: 10px; /* Adjust the image size */
+    height: 16px; /* Adjust the image size */
+    margin-right: 5px; /* Space between the image and the text */
+}
+
+.goals span {
+    color: var(--Text-950, #252525);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: center; /* Center the text */
+}
+.result{
+    text-align: center;
+    
+}
+.result h6{
+
+color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 28.8px */
+padding: 20px 20px;
+}
+.class{
+    padding:40px 0px;
+    padding-left: 51px;
+}
+.create h2{
+    width: 153px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.step h5{
+    width: 1200px;
+    color: var(--Text-950, #252525);
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 28.8px */
+    padding: 10px;
+}
+.frames{
+    padding: 40px 10px;
+}
+.frames img{
+    width: 100%;
+height: 510px;
+}
+.appbuild{
+    padding:40px 0px;
+    padding-left: 51px;
+}
+.build h2{
+    width: 196px;
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.image18 img {
+    width: 500px;
+    height: 350px;
+}
+.appbuilds p{
+    height: 66px;
+align-self: stretch;
+    color: #000;
+text-align: justify;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 21.6px */
+}
+.features-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .feature-icon {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF6427; /* Optional if background needed */
+    border-radius: 50%; /* Optional for circular icons */
+  }
+  
+  .feature-icon img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  
+  .feature-item span {
+    width: 264px;
+    color: #000;
+    text-align: justify;
+    
+    /* Med/16 */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; 
+    margin-left: 24px; /* Padding between image and text */
+  }
+  .webdevelopment{
+    padding:40px 0px;
+    padding-left: 51px;
+  }  
+  .webdevep h2{
+    width: 196px;
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+  .img19 img{
+    width: 500px;
+    height: 350px;
+  }
+  .craft h3{
+    height: 44px;
+align-self: stretch;
+    color: #000;
+text-align: justify;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 21.6px */
+  }
+.features-lists {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+  }
+  
+  .feature-items {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .feature-icons {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A9DB4; /* Optional if background needed */
+    border-radius: 50%; /* Optional for circular icons */
+  }
+  
+  .feature-icons img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  
+  .feature-items span {
+    width: 264px;
+    color: #000;
+    text-align: justify;
+    
+    /* Med/16 */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+    margin-left: 24px; /* Padding between image and text */
+  }

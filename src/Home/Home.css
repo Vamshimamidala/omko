@@ -1,0 +1,363 @@
+ /* Custom carousel container */
+.custom-carousel {
+    padding-left: 51px;
+    padding-right: 51px;
+}
+
+/* Styling for carousel images */
+.carousel-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Custom dots styling */
+.custom-dots {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 12px; /* Adjusted gap for better alignment */
+    margin-top: 20px; /* Added margin to move the dots below the image */
+}
+
+/* Styling for each dot */
+.custom-dots li {
+    width: 5px;
+    height: 12px;
+    border-radius: 50%; /* Circular dots */
+    background-color: #ccc;
+    margin: 0;
+    transition: background-color 0.3s ease;
+}
+
+/* Active dot */
+.custom-dots li.slick-active {
+    background-color: #007bff;
+}
+.client{
+    padding:40px 0px;
+    padding-left: 51px;
+}
+.delivery {
+display: flex;
+max-height: 48px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: var(--Prim-50, #F2F4FC);
+border-left: 5px solid blue; /* Blue left border */
+width: 15%; /* Ensure the div takes full available width */
+  }
+  
+  .delivery h2 {
+    color: var(--Text-950, #252525);
+    text-align: center;
+    font-family: poppin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+.frame {
+    display: flex;
+    justify-content: center;  /* Centers the image horizontally */
+    align-items: center;  /* Centers the image vertically */
+    height: 506px;  /* Fixed height */
+    align-self: stretch;  /* Stretches to fill available space */
+    border-radius: 8px;  /* Rounded corners */
+    background: var(--Text-00, #FFF);  /* White background */
+  }
+  
+  .frame img {
+    max-height: 100%;  /* Ensures the image fits within the parent container */
+    object-fit: cover;  /* Keeps aspect ratio, cropping the image if necessary */
+    border-radius: 8px;  /* Matches border radius for the image */
+    width: 95%;  /* Makes sure the image stretches to fill the container */
+  }
+.design{
+  padding:50px 0px;
+  padding-left: 51px;
+}
+.services{
+display: flex;
+
+max-height: 40px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: var(--Prim-50, #F2F4FC);
+border-left: 5px solid blue; /* Blue left border */
+width: 10%; 
+}
+.services h2{
+  color: var(--Text-950, #252525);
+  text-align: center;
+  font-family: poppin;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal
+}
+.Ui{
+  text-align: center;
+  align-self: stretch;
+}
+.Ui h2{
+  color: #000;
+text-align: center;
+font-family: poppin;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.uiux-section {
+  display: flex;
+  align-items: center;
+  gap: 165px;
+  align-self: stretch;
+}
+
+.uiux-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.uiux-image {
+  width: 468px;
+}
+
+.uiux-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.uiux-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.uiux-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.uiux-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 8px;
+  background: #ECECEC;
+}
+
+.uiux-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.uiux-text {
+  display: flex;
+  width: 494px;
+  flex-direction: column;
+  justify-content: center;
+  color: #000;
+  font-family: poppin;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.appdevelopment{
+  text-align: center;
+  align-self: stretch;
+  padding:16px;
+}
+.appdevelopment h2{
+color: #000;
+text-align: center;
+font-family: poppin;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.app-section{
+  display: flex;
+  align-items: center;
+  gap: 165px;
+  align-self: stretch;
+}
+.app-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.app-image {
+  width: 465px;
+}
+
+.app-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.app-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.app-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 8px;
+  background: #ECECEC;
+}
+
+.app-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.app-text {
+  display: flex;
+  width: 494px;
+  flex-direction: column;
+  justify-content: center;
+  color: #000;
+  font-family: poppin;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.web{
+  text-align: center;
+  align-self: stretch;
+}
+.web h2{
+  color: #000;
+text-align: center;
+font-family: poppin;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.web-section {
+  display: flex;
+  align-items: center;
+  gap: 165px;
+  align-self: stretch;
+}
+
+.web-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.uweb-image {
+  width: 468px;
+}
+
+.web-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.web-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.web-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.web-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 8px;
+  background: #ECECEC;
+}
+
+.web-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.web-text {
+  display: flex;
+  width: 494px;
+  flex-direction: column;
+  justify-content: center;
+  color: #000;
+  font-family: poppin;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.project{
+  padding:50px 0px;
+  padding-left: 51px;
+}
+.ourprojects{
+  display: flex;
+  max-height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: var(--Prim-50, #F2F4FC);
+  border-left: 5px solid blue; /* Blue left border */
+  width: 10%; 
+  }
+  .ourprojects h2{
+    color: var(--Text-950, #252525);
+    text-align: center;
+    font-family: poppin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal
+  }
